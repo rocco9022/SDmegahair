@@ -2604,12 +2604,12 @@ input, select, textarea {
 						font-size: 18px;
 						color: #fff;
 						text-align: center;
-						background: rgba(150, 150, 150, 0.75);
+						background: rgba(31, 31, 31, 0.75);
 						border-radius: 5px;
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #969696;
+						background-color: #302e2e;
 					}
 
 			#navPanel {
@@ -2633,14 +2633,15 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				color: #858484;
-				background-image: url("images/bg02.png");
+				color: #ffffff;
+				background-color: #ffffff;
+				opacity: 0.95;
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
 				#navPanel .link {
 					display: block;
-					color: #888;
+					color: #111111;
 					text-decoration: none;
 					height: 44px;
 					line-height: 44px;
@@ -2679,7 +2680,7 @@ input, select, textarea {
 				}
 
 				#navPanel .depth-0 {
-					color: #fff;
+					color: #1a1a1a;
 				}
 
 			body.navPanel-visible #page-wrapper {
